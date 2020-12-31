@@ -1,0 +1,42 @@
+/*https://code.makery.ch/pt/library/javafx-tutorial/part4/ esse site te fornece varios metodos bem mais simples*/
+.button.Add{
+	 -fx-background-image: url("../imagens/add1.png");
+	 -fx-pref-width: 45px;
+	 -fx-pref-height: 45px;
+	 -fx-background-repeat:no-repeat;
+	 -fx-background-position:center;
+}
+.button.Remove{
+	 -fx-background-image: url("../imagens/remove1.png");
+	 -fx-pref-width: 45px;
+	 -fx-pref-height: 45px;
+	 -fx-background-repeat:no-repeat;
+	 -fx-background-position:center;
+}/* 
+.button.atualizar{
+	 -fx-background-image: url("../imagens/atualizar.png");
+	 -fx-pref-width: 45px;
+	 -fx-pref-height: 45px;
+	 -fx-background-repeat:no-repeat;
+	 -fx-background-position:center;
+}*/
+
+/* 
+.label-nomeLoja{
+	 -fx-font-family: "Segoe UI Semibold";
+	 -fx-font-size: 20pt;
+	 -fx-position:absolute;
+}
+.background{
+	-fx-background-image :url("../iconMain.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position:center;
+}*/
+.button.sair{ 
+	-fx-font-size: 18pt;
+	-fx-font-weight:bolder;
+}
+
+.button.sair:hover {
+    -fx-background-color: "red";
+}
